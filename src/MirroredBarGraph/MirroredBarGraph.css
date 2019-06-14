@@ -1,0 +1,87 @@
+.mb_wrapper {
+  margin: 20px 0 50px;
+  padding: 10px;
+  max-width: 450px;
+}
+
+.graph {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.plot_area {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.y {
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.grid {
+  border-left: 1px solid #00000061;
+  box-sizing: border-box;
+  flex: 1;
+  text-align: left;
+}
+
+.bar_group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.bar {
+  margin: 1px 0;
+  flex: 1;
+  width: 0;
+  transition: 0.08s ease-out all;
+}
+
+.bar.positive {
+}
+
+.negative_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.positive_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid #00000061;
+}
+
+.grid_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.axis_label {
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.zero {
+  top: 100%;
+  font-size: 13px;
+  position: absolute;
+  transform: translate(-50%);
+  font-weight: 800;
+}

@@ -1,0 +1,104 @@
+.wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+.y_label {
+  height: 25px;
+  font-size: 12px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.map {
+  margin-left: 10px;
+}
+
+.row_wrapper {
+  border: 1px solid rgb(172, 172, 172);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  font-size: 12px;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cell_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.x {
+  display: flex;
+  margin-top: 10px;
+}
+
+.x_label {
+  width: 100px;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.positive {
+  background: rgb(135, 39, 80);
+}
+.negative {
+  background: rgb(50, 103, 40);
+}
+
+.x_axis_label {
+  padding-top: 15px;
+  display: block;
+}
+
+.y_axis_label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  padding-left: 10px;
+}
+
+.legend {
+  margin-left: 20px;
+}
+
+.legend_label {
+  font-size: 15px;
+}
+
+.legend ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.legend ul li {
+  display: flex;
+  font-size: 14px;
+}
+
+.legend_icon {
+  height: 18px;
+  width: 20px;
+  display: block;
+  margin-right: 5px;
+}
